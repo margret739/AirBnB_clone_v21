@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 #define the route for the root URL. '/'
 @app.route('/airbnb-onepage/', strict_slashes=False)
-def index():
+def hello_hbnb():
 	""" Displays HELLO HBNB!"""
 	return "Hello HBNB!"
 
